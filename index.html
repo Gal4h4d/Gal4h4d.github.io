@@ -1,38 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Gal4h4d</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #0d1117;
-            color: #c9d1d9;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 { color: #58a6ff; }
-        a {
-            color: #58a6ff;
-            text-decoration: none;
-        }
-        a:hover { text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Gal4h4d</title>
+  <style>
+    /* ===== RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ===== GLOBAL ===== */
+    body {
+      font-family: "Inter", "Segoe UI", sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    h1, h2 {
+      font-weight: 600;
+      color: #f0f6fc;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 40px 0 15px;
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 8px;
+      width: 100%;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #b1bac4;
+      max-width: 600px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #79c0ff;
+    }
+
+    /* ===== PROJECT LIST ===== */
+    ul {
+      list-style: none;
+      width: 100%;
+      max-width: 600px;
+      padding: 0;
+    }
+
+    li {
+      background: #161b22;
+      padding: 15px 20px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    li:hover {
+      background: #1c2128;
+      transform: translateY(-2px);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+
+    footer a {
+      color: #8b949e;
+    }
+
+    footer a:hover {
+      color: #58a6ff;
+    }
+  </style>
 </head>
 <body>
-    <h1>¡Hola! Soy Gal4h4d </h1>
-    <p>Bienvenido a mi portafolio en GitHub Pages.</p>
+  <h1>Gal4h4d</h1>
+  <p>Desarrollador y estudiante de ingeniería de sistemas. Apasionado por la programación, la IA y el diseño limpio.</p>
 
-    <h2> Proyectos</h2>
-    <ul style="list-style: none; padding: 0;">
-        <li> <a href="https://github.com/Gal4h4d/Pagina_web">Web en Django</a></li>
-        <li> <a href="https://github.com/Gal4h4d/Miku-IA">Asistente Kiora</a></li>
-        <li> <a href="https://github.com/Gal4h4d/Matemagicas">Matemagicas</a></li>
-    </ul>
+  <h2>Proyectos destacados</h2>
+  <ul>
+    <li><a href="https://github.com/Gal4h4d/Pagina_web" target="_blank">🌐 Web en Django</a></li>
+    <li><a href="https://github.com/Gal4h4d/Miku-IA" target="_blank">🤖 Asistente Kiora</a></li>
+    <li><a href="https://github.com/Gal4h4d/Matemagicas" target="_blank">📚 Matemágicas</a></li>
+  </ul>
 
-    <h2>📬 Contacto</h2>
-    <p>Correo: <a href="mailto:juanditamp@gmail.com">juanditamp@gmail.com</a></p>
-    <p>Linkedin: <a href="https://www.linkedin.com/in/juan-david-miranda-pelaez-09943a286">Perfil</a></p>
+  <h2>Contacto</h2>
+  <p>Correo: <a href="mailto:juanditamp@gmail.com">juanditamp@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/juan-david-miranda-pelaez-09943a286" target="_blank">juan-david-miranda-pelaez</a></p>
+
+  <footer>
+    <p>© 2025 Gal4h4d — Portafolio personal en GitHub Pages</p>
+  </footer>
 </body>
 </html>
